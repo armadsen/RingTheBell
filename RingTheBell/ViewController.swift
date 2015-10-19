@@ -9,6 +9,7 @@
 import UIKit
 
 let FirstBellNotification = "firstBell"
+let LunchBellNotification = "lunchBell"
 let LastBellNotification = "lastBell"
 
 class ViewController: UIViewController {
@@ -21,6 +22,7 @@ class ViewController: UIViewController {
 		
 		let nc = NSNotificationCenter.defaultCenter()
 		nc.postNotificationName(FirstBellNotification, object: self)
+		nc.postNotificationName(LunchBellNotification, object: self)
 		nc.postNotificationName(LastBellNotification, object: self)
 	}
 }

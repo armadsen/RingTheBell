@@ -14,11 +14,16 @@ class Student: NSObject {
 		
 		let nc = NSNotificationCenter.defaultCenter()
 		nc.addObserver(self, selector: "firstBellRang:", name: FirstBellNotification, object: nil)
+		nc.addObserver(self, selector: "lunchBellRang:", name: LunchBellNotification, object: nil)
 		nc.addObserver(self, selector: "lastBellRang:", name: LastBellNotification, object: nil)
 	}
 	
 	func firstBellRang(notification: NSNotification) {
 		print("Go to first period")
+	}
+	
+	func lunchBellRang(notification: NSNotification) {
+		print("get into a food fight")
 	}
 	
 	func lastBellRang(notification: NSNotification) {
