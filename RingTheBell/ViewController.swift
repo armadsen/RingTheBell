@@ -8,18 +8,20 @@
 
 import UIKit
 
+let FirstBellNotification = "firstBell"
+let LastBellNotification = "lastBell"
+
 class ViewController: UIViewController {
 
+	let teacher = Teacher()
+	let student = Student()
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+		
+		let nc = NSNotificationCenter.defaultCenter()
+		nc.postNotificationName(FirstBellNotification, object: self)
+		nc.postNotificationName(LastBellNotification, object: self)
 	}
-
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
-	}
-
-
 }
 

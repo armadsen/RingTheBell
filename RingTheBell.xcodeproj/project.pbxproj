@@ -12,6 +12,8 @@
 		9DCE11E71BD484AD0095F250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCE11E51BD484AD0095F250 /* Main.storyboard */; };
 		9DCE11E91BD484AD0095F250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DCE11E81BD484AD0095F250 /* Assets.xcassets */; };
 		9DCE11EC1BD484AD0095F250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCE11EA1BD484AD0095F250 /* LaunchScreen.storyboard */; };
+		9DCE11F41BD485500095F250 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCE11F31BD485500095F250 /* Teacher.swift */; settings = {ASSET_TAGS = (); }; };
+		9DCE11F61BD485F60095F250 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCE11F51BD485F60095F250 /* Student.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9DCE11E81BD484AD0095F250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DCE11EB1BD484AD0095F250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DCE11ED1BD484AD0095F250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DCE11F31BD485500095F250 /* Teacher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		9DCE11F51BD485F60095F250 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				9DCE11E81BD484AD0095F250 /* Assets.xcassets */,
 				9DCE11EA1BD484AD0095F250 /* LaunchScreen.storyboard */,
 				9DCE11ED1BD484AD0095F250 /* Info.plist */,
+				9DCE11F31BD485500095F250 /* Teacher.swift */,
+				9DCE11F51BD485F60095F250 /* Student.swift */,
 			);
 			path = RingTheBell;
 			sourceTree = "<group>";
@@ -134,8 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DCE11F41BD485500095F250 /* Teacher.swift in Sources */,
 				9DCE11E41BD484AD0095F250 /* ViewController.swift in Sources */,
 				9DCE11E21BD484AD0095F250 /* AppDelegate.swift in Sources */,
+				9DCE11F61BD485F60095F250 /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
